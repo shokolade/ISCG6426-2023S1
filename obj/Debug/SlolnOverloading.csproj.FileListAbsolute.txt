@@ -1,0 +1,7 @@
+C:\Users\junda\source\repos\SlolnOverloading\bin\Debug\SlolnOverloading.exe.config
+C:\Users\junda\source\repos\SlolnOverloading\bin\Debug\SlolnOverloading.exe
+C:\Users\junda\source\repos\SlolnOverloading\bin\Debug\SlolnOverloading.pdb
+C:\Users\junda\source\repos\SlolnOverloading\obj\Debug\SlolnOverloading.csprojAssemblyReference.cache
+C:\Users\junda\source\repos\SlolnOverloading\obj\Debug\SlolnOverloading.csproj.CoreCompileInputs.cache
+C:\Users\junda\source\repos\SlolnOverloading\obj\Debug\SlolnOverloading.exe
+C:\Users\junda\source\repos\SlolnOverloading\obj\Debug\SlolnOverloading.pdb
