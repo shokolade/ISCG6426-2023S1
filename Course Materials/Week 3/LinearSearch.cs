@@ -20,12 +20,12 @@ namespace LinerSearch
                 {
                     Console.WriteLine("-------------------------");
                     Console.WriteLine("Search successful");
-                    Console.WriteLine("Element {0} found at location {1}\n", x, i + 1);
+                    Console.WriteLine("Item {0} found at location {1}\n", x, i + 1);
                     //return;
                     Console.ReadLine();
                 }
             }
-            Console.WriteLine("Entered element not found. Search unsuccessful");
+            Console.WriteLine("Entered item not found. Search unsuccessful");
             Console.ReadLine();
         }
     }
