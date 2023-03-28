@@ -1,0 +1,70 @@
+using System;
+
+class MyLinkedList //create a class for linked list, contains two elements.
+{
+    public int value;
+    public MyLinkedList next;
+
+    public MyLinkedList(int value)
+    {
+        this.value = value;
+        this.next = null;
+    }
+}
+
+class LinkedList   //create a linked list itself and contains a head.
+{
+    private MyLinkedList head;
+    private MyLinkedList tail;
+
+    public LinkedList()
+    {
+        head = null;
+        tail = null;
+}
+
+    public void AddNode(int value) //add a new node to the list. 
+    {
+        MyLinkedList newNode = new MyLinkedList(value);
+        if (head == null)
+        {
+            head = newNode;
+            tail = newNode;
+        }
+        else
+        {
+            tail.next = newNode;
+            tail = newNode;
+        }
+    
+    }
+
+    public void PrintLinkedlist()//print the linked list
+    {
+        MyLinkedList current = head;
+         
+        while (current != null)
+        {
+            Console.Write(current.value + ",");
+            current= current.next;
+        }
+       
+   
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        LinkedList list = new LinkedList();
+        Console.Write("The linked list is ");
+        list.AddNode(1);
+        list.AddNode(2);
+        list.AddNode(3);
+        list.AddNode(4);
+        list.AddNode(5);
+        list.PrintLinkedlist();
+        Console.ReadLine();
+    }
+}
